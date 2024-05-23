@@ -1,0 +1,36 @@
+
+.toggle{
+    display: flex;
+    justify-content:space-between;
+    border: 2px solid slategrey;
+    border-radius: 1rem;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    height: 25px;
+    
+
+}
+
+.toggle>*{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: yellow;
+}
+.t-button{
+    border-radius: 100%;
+    background: yellow;
+    position: absolute;
+}
+
+.toggle .moon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: black; /* Set moon color to black */
+  }
+  
+  .toggle .sun {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: yellow; /* Set sun color to yellow */
+  }
